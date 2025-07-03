@@ -1,12 +1,72 @@
-# React + Vite
+# Projeto React – Consumo de API de Cachorros com Axios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém um exemplo simples e didático de como consumir uma API pública utilizando **React + Axios**, com separação de componentes e aplicação de estilos básicos.
 
-Currently, two official plugins are available:
+## Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi desenvolvido como continuação do plano de aula ministrado de forma voluntária no programa da comunidade FLY.
 
-## Expanding the ESLint configuration
+Aqui as alunas aprendem a:
+- Fazer requisições HTTP com `axios`;
+- Usar `useState` e `useEffect`;
+- Trabalhar com componentes reutilizáveis;
+- Aplicar tratamento de carregamento e erro;
+- Atualizar dados dinamicamente com clique de botão.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Funcionalidades
+
+- Busca automática de uma imagem de cachorro ao carregar a página;
+- Botão "Buscar outro cachorro" para buscar nova imagem a qualquer momento;
+- Tratamento de erros e estado de carregamento.
+
+---
+
+##  Estrutura do Projeto
+
+src/
+├── App.jsx
+├── DogExample.jsx
+└── components/
+├── DogImage.jsx
+├── Loading.jsx
+└── Error.jsx
+
+
+---
+
+## Como rodar o projeto
+
+
+```bash
+
+Clone o repositório:
+git clone https://github.com/ThainaSantoss/api-dogs-exercicio.git
+
+Acesse a pasta:
+cd repo-dog-api
+
+Instale as dependências:
+
+npm install
+
+Inicie o servidor de desenvolvimento:
+npm run dev
+
+```
+
+##  API utilizada
+Este projeto utiliza a Dog CEO API:
+📍 https://dog.ceo/dog-api/
+
+## Endpoint principal:
+
+https://dog.ceo/api/breeds/image/random
+
+## 🤝 Sobre o Programa FLY
+
+A **Fly** é uma ONG que forma protagonistas sociais por meio da educação socioemocional, da tecnologia e do empreendedorismo. Com uma metodologia própria e pioneira no Brasil, já foi impactados mais de **8 mil vidas diretamente** e **300 mil indiretamente** na América Latina, inspirando jovens, mulheres, imigrantes e pessoas de grupos sub-representados a transformarem suas trajetórias com autonomia, renda e equidade.
+
+ Observação: 
+Este repositório é focado exclusivamente no consumo da API dos cachorros com axios e botão de atualização. 
