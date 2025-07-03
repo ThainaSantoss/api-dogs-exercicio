@@ -36,25 +36,30 @@ src/
 
 ---
 
-## Como rodar o projeto
 
+### Como rodar o projeto
 
-```bash
+````
+1.  Clone o repositório:
+`git clone https://github.com/ThainaSantoss/api-dogs-exercicio.git
 
-Clone o repositório:
-git clone https://github.com/ThainaSantoss/api-dogs-exercicio.git
+2.  Acesse a pasta:
 
-Acesse a pasta:
-cd api-dogs-exercicio
+`cd api-dogs-exercicio 
 
-Instale as dependências:
+3. Instale as dependências:
 
 npm install
 
-Inicie o servidor de desenvolvimento:
+4. Instale o axios:
+
+`npm install axios` 
+
+5.  Inicie o servidor de desenvolvimento:
+
 npm run dev
 
-```
+````
 
 ##  API utilizada
 Este projeto utiliza a Dog CEO API:
@@ -70,3 +75,4 @@ A **Fly** é uma ONG que forma protagonistas sociais por meio da educação soci
 
  Observação: 
 Este repositório é focado exclusivamente no consumo da API dos cachorros com axios e botão de atualização. 
+
