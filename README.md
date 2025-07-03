@@ -45,7 +45,7 @@ Clone o repositório:
 git clone https://github.com/ThainaSantoss/api-dogs-exercicio.git
 
 Acesse a pasta:
-cd repo-dog-api
+cd api-dogs-exercicio
 
 Instale as dependências:
 
